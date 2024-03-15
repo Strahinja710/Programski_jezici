@@ -1,0 +1,26 @@
+{
+  "automobili": 
+  [
+    {
+      "tip": "suv",
+      "marka": "bmw",
+      "model": "x5",
+      "godina proizvodnje": 2023,
+      "cijena": 100000
+    },
+    {
+      "tip": "suv",
+      "marka": "audi",
+      "model": "q5",
+      "godina proizvodnje": 2023,
+      "cijena": 120000
+    },
+    {
+      "tip": "suv",
+      "marka": "ford",
+      "model": "kuga",
+      "godina proizvodnje": 2023,
+      "cijena": 100000
+    }
+  ]
+}
