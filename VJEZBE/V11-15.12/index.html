@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="app.js"></script>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+
+    </tbody>
+  </table>
+  <form onsubmit="event.preventDefault(); return postStudents()">
+    <label>
+      Name
+      <input type="text" id="nameInput" required />
+    </label>
+    <br /><br />
+    <label>
+      Last Name
+      <input type="text" id="lastNameInput" required />
+    </label>
+    <br /><br />
+    <label>
+      Age
+      <input type="number" id="ageInput" required />
+    </label>
+    <br /><br />
+    <label>
+      Ciy
+      <input type="text" id="cityInput" required />
+    </label>
+    <br /><br />
+    <button type="submit" id="submitButton">Add student</button>
+  </form>
+
+  <!-- ISPOD JE FROMA ZA UPDATE -->
+
+  <h3>Student update</h3>
+  <form onsubmit="event.preventDefault(); return updateStudents()">
+    <label>
+      Id
+      <input type="text" id="idUpdate" required disabled/>
+    </label>
+    <br /><br />
+    <label>
+      Name
+      <input type="text" id="nameUpdate" required />
+    </label>
+    <br /><br />
+    <label>
+      Last Name
+      <input type="text" id="lastNameUpdate" required />
+    </label>
+    <br /><br />
+    <label>
+      Age
+      <input type="number" id="ageUpdate" required />
+    </label>
+    <br /><br />
+    <label>
+      Ciy
+      <input type="text" id="cityUpdate" required />
+    </label>
+    <br /><br />
+    <button type="submit" id="submitButton">Save changes</button>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "students": [
+    {
+      "name": "Petar",
+      "lastName": "Petrović",
+      "age": 20,
+      "city": "Bijeljina"
+    },
+    {
+      "name": "Mara",
+      "lastName": "Marić",
+      "age": 22,
+      "city": "Doboj"
+    },
+    {
+      "name": "Marko",
+      "lastName": "Marković",
+      "age": 21,
+      "city": "Zvornik"
+    },
+    {
+      "name": "Milena",
+      "lastName": "Milanović",
+      "age": 19,
+      "city": "Brčko"
+    },
+    {
+      "id": 0.8513115872463937,
+      "name": "Marko ",
+      "lastname": "Markovic",
+      "age": "25",
+      "city": "Ugljevik"
+    }
+  ]
+}

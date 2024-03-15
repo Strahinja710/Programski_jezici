@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "Petar",
+      "lastName": "Petrović",
+      "age": 20,
+      "city": "Bijeljina"
+    },
+    {
+      "name": "Mara",
+      "lastName": "Marić",
+      "age": 22,
+      "city": "Doboj"
+    },
+    {
+      "name": "Marko",
+      "lastName": "Marković",
+      "age": 21,
+      "city": "Zvornik"
+    },
+    {
+      "name": "Milena",
+      "lastName": "Milenović",
+      "age": 20,
+      "city": "Lopare"
+    }
+  ]
+}
